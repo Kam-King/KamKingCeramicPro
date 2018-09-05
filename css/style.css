@@ -154,11 +154,13 @@ span{
 header.masthead {
   position: relative;
   width: 100%;
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 100px;
   color: white;
-  background: url("../img/test2.jpg"), #7b4397;
-  background-repeat: no-repeat;
+  background: url("../img/test3.jpg"),  black;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
+
 }
 
 header.masthead .header-content {
@@ -187,6 +189,14 @@ header.masthead .device-container .screen img {
     min-height: 775px;
     padding-top: 0;
     padding-bottom: 0;
+    position: relative;
+    width: 100%;
+    color: white;
+    background: url("../img/test2.jpg"),  black;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
   }
   header.masthead .header-content {
     margin-bottom: 0;

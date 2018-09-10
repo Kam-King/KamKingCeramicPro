@@ -58,6 +58,23 @@ section h2 {
 span{
   color: #ea1b8d;
 }
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.black{
+  text-decoration: none;
+  color: black;
+}
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
@@ -164,7 +181,7 @@ header.masthead {
 }
 
 header.masthead .header-content {
-  max-width: 500px;
+  max-width: 300px;
   margin-bottom: 100px;
   text-align: center;
 }
@@ -182,8 +199,13 @@ header.masthead .device-container {
 header.masthead .device-container .screen img {
   border-radius: 3px;
 }
-
+.btn{
+  display: block;
+}
 @media (min-width: 992px) {
+  .btn{
+    display: inline-block;
+  }
   header.masthead {
     height: 100vh;
     min-height: 775px;
@@ -201,6 +223,7 @@ header.masthead .device-container .screen img {
   header.masthead .header-content {
     margin-bottom: 0;
     text-align: left;
+    max-width: 500px;
   }
   header.masthead .header-content h1 {
     font-size: 50px;
@@ -262,7 +285,10 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   border-color: #ea1b8d;
   background-color: #ea1b8d;
 }
-
+.btn-pink{
+    background-color: #ea1b8d;
+    color: white;
+}
 .btn {
   border-radius: 300px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
@@ -276,7 +302,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   padding: 15px 30px;
 }
 .description:before{
-  content:'Nanoshine LTD jest producentem powłok ceramicznych przeznaczonych  do wszystkich rodzajów powierzchni. Seria produktów, pod wspólną marką Ceramic Pro, została oparta o technologię  ceramicznych związków molekularnych.';
+  content:'Nanoshine LTD jest producentem powłok ceramicznych przeznaczonych do wszystkich rodzajów powierzchni. Seria produktów, pod wspólną marką Ceramic Pro, została oparta o technologię  ceramicznych związków molekularnych.';
   animation: animate infinite 40s;
 }
 .description{
